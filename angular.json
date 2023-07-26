@@ -5,7 +5,11 @@
   "projects": {
     "angular-boxes-project": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "css"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -94,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "d156d36b-fea6-44ad-82b1-32f17bdae9d3"
   }
 }

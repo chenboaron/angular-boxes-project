@@ -1,0 +1,5 @@
+<div class="box blue-box" [style.border-color]="selectedBorderColor">
+    <select [(ngModel)]="selectedBorderColor">
+        <option *ngFor="let color of borderColorOptions" [value]="color">{{ color }}</option>
+    </select>
+</div>
